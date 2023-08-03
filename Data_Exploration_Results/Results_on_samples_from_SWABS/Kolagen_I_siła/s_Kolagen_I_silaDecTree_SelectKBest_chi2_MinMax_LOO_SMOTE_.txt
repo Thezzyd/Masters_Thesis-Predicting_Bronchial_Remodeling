@@ -1,0 +1,301 @@
+=============================================
+search_space: {'selector__k': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100]}
+>iteration=1, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 50}, test_object_id=['AR04_S'], feature_names=['spot1829' 'spot3451' 'spot4633' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12505' 'spot13827'
+ 'spot14410' 'spot16726' 'spot18732' 'spot20686' 'spot20774' 'spot22966'
+ 'spot24234' 'spot24743' 'spot28376' 'spot28573' 'spot28583' 'spot32674'
+ 'spot32848' 'spot33029' 'spot33189' 'spot33246' 'spot33306' 'spot33373'
+ 'spot33521' 'spot35033' 'spot35328' 'spot36023' 'spot36858' 'spot36869'
+ 'spot36995' 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot39680'
+ 'spot43875' 'spot45293' 'spot46497' 'spot46585' 'spot46921' 'spot47200'
+ 'spot48579' 'spot49650']
+>iteration=2, acc=0.0, best=0.627906976744186, cfg={'selector__k': 15}, test_object_id=['AR07_S'], feature_names=['spot3451' 'spot5713' 'spot8133' 'spot10947' 'spot11945' 'spot13827'
+ 'spot14410' 'spot20686' 'spot33246' 'spot36023' 'spot37121' 'spot46585'
+ 'spot46921' 'spot48579' 'spot49650']
+>iteration=3, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 4}, test_object_id=['AR08_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=4, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 4}, test_object_id=['AR09_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=5, acc=1.0, best=0.4883720930232558, cfg={'selector__k': 50}, test_object_id=['AR10_S'], feature_names=['spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5097' 'spot5713'
+ 'spot6664' 'spot8133' 'spot8961' 'spot9646' 'spot10947' 'spot11945'
+ 'spot12356' 'spot13827' 'spot14410' 'spot16726' 'spot18668' 'spot20686'
+ 'spot24234' 'spot24743' 'spot28573' 'spot28583' 'spot31140' 'spot32848'
+ 'spot33189' 'spot33246' 'spot33306' 'spot33373' 'spot33417' 'spot33521'
+ 'spot35033' 'spot35328' 'spot36023' 'spot36858' 'spot36869' 'spot36995'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot39680' 'spot43875'
+ 'spot45293' 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot48579'
+ 'spot49650' 'spot50246']
+>iteration=6, acc=0.0, best=0.6046511627906976, cfg={'selector__k': 50}, test_object_id=['AR11_S'], feature_names=['spot3451' 'spot4633' 'spot5156' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12356' 'spot12505'
+ 'spot13827' 'spot14410' 'spot16726' 'spot18350' 'spot18732' 'spot20686'
+ 'spot20774' 'spot24234' 'spot24743' 'spot28573' 'spot28583' 'spot31140'
+ 'spot32703' 'spot32848' 'spot33189' 'spot33246' 'spot33306' 'spot33373'
+ 'spot33417' 'spot33521' 'spot35033' 'spot36858' 'spot36869' 'spot36995'
+ 'spot37011' 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153'
+ 'spot39680' 'spot45293' 'spot46497' 'spot46585' 'spot46921' 'spot47200'
+ 'spot48579' 'spot49650']
+>iteration=7, acc=0.0, best=0.5581395348837209, cfg={'selector__k': 35}, test_object_id=['AR12_S'], feature_names=['spot1829' 'spot3451' 'spot4633' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot13827' 'spot14410'
+ 'spot16726' 'spot20686' 'spot24743' 'spot28573' 'spot33189' 'spot33246'
+ 'spot33306' 'spot33373' 'spot35033' 'spot36023' 'spot36869' 'spot36995'
+ 'spot37121' 'spot37131' 'spot38104' 'spot39680' 'spot45293' 'spot46497'
+ 'spot46585' 'spot46921' 'spot47200' 'spot48579' 'spot49650']
+>iteration=8, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 80}, test_object_id=['AR13_S'], feature_names=['spot1829' 'spot2401' 'spot2543' 'spot2549' 'spot3451' 'spot4633'
+ 'spot5156' 'spot5713' 'spot6664' 'spot6665' 'spot7715' 'spot8133'
+ 'spot8961' 'spot9646' 'spot10208' 'spot10947' 'spot11914' 'spot11945'
+ 'spot12356' 'spot12911' 'spot13827' 'spot14410' 'spot16726' 'spot17043'
+ 'spot17502' 'spot18350' 'spot18935' 'spot20686' 'spot20708' 'spot24234'
+ 'spot24411' 'spot24743' 'spot25639' 'spot26155' 'spot27664' 'spot27665'
+ 'spot28573' 'spot28583' 'spot28964' 'spot29275' 'spot31140' 'spot32259'
+ 'spot32703' 'spot32848' 'spot33189' 'spot33246' 'spot33258' 'spot33276'
+ 'spot33306' 'spot33373' 'spot33521' 'spot35033' 'spot35328' 'spot36023'
+ 'spot36064' 'spot36858' 'spot36869' 'spot36889' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38320'
+ 'spot39680' 'spot40264' 'spot41135' 'spot41374' 'spot44555' 'spot45293'
+ 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot48530' 'spot48579'
+ 'spot49650' 'spot49902']
+>iteration=9, acc=1.0, best=0.4418604651162791, cfg={'selector__k': 4}, test_object_id=['AR15_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=10, acc=1.0, best=0.5116279069767442, cfg={'selector__k': 100}, test_object_id=['AR16_S'], feature_names=['spot927' 'spot1726' 'spot1829' 'spot2549' 'spot3451' 'spot4633'
+ 'spot4646' 'spot5003' 'spot5097' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot9676' 'spot9802' 'spot10208' 'spot10857'
+ 'spot10947' 'spot11576' 'spot11945' 'spot12356' 'spot12505' 'spot13827'
+ 'spot14410' 'spot16726' 'spot17041' 'spot17247' 'spot18350' 'spot18668'
+ 'spot18732' 'spot20515' 'spot20686' 'spot20774' 'spot20861' 'spot24234'
+ 'spot24411' 'spot24519' 'spot24743' 'spot25901' 'spot26983' 'spot28573'
+ 'spot28583' 'spot28752' 'spot28964' 'spot29275' 'spot29617' 'spot30564'
+ 'spot31140' 'spot32670' 'spot32674' 'spot32703' 'spot32818' 'spot32848'
+ 'spot33029' 'spot33189' 'spot33246' 'spot33258' 'spot33304' 'spot33306'
+ 'spot33373' 'spot33405' 'spot33417' 'spot33521' 'spot35033' 'spot35269'
+ 'spot35328' 'spot35944' 'spot36023' 'spot36062' 'spot36858' 'spot36869'
+ 'spot36995' 'spot37011' 'spot37117' 'spot37121' 'spot37131' 'spot37519'
+ 'spot38104' 'spot38153' 'spot38320' 'spot38551' 'spot38627' 'spot38877'
+ 'spot39680' 'spot41022' 'spot41135' 'spot41374' 'spot41486' 'spot43831'
+ 'spot43875' 'spot45293' 'spot46497' 'spot46585' 'spot46651' 'spot46921'
+ 'spot47200' 'spot48579' 'spot49650' 'spot50217']
+>iteration=11, acc=1.0, best=0.5348837209302325, cfg={'selector__k': 20}, test_object_id=['AR17_S'], feature_names=['spot3451' 'spot5713' 'spot6664' 'spot8133' 'spot10947' 'spot11945'
+ 'spot13827' 'spot14410' 'spot20686' 'spot24234' 'spot24743' 'spot33246'
+ 'spot33373' 'spot36023' 'spot36995' 'spot37121' 'spot46585' 'spot46921'
+ 'spot48579' 'spot49650']
+>iteration=12, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 60}, test_object_id=['AR18_S'], feature_names=['spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5713' 'spot6664'
+ 'spot8133' 'spot8961' 'spot9646' 'spot9802' 'spot10947' 'spot11945'
+ 'spot12356' 'spot13827' 'spot14410' 'spot16726' 'spot16832' 'spot18350'
+ 'spot20661' 'spot20686' 'spot24234' 'spot24411' 'spot24743' 'spot28573'
+ 'spot28583' 'spot28964' 'spot31140' 'spot32703' 'spot32848' 'spot33189'
+ 'spot33246' 'spot33258' 'spot33306' 'spot33373' 'spot33521' 'spot35033'
+ 'spot36023' 'spot36064' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38877'
+ 'spot39680' 'spot41374' 'spot41486' 'spot43875' 'spot45293' 'spot46497'
+ 'spot46521' 'spot46585' 'spot46921' 'spot47200' 'spot48579' 'spot49650']
+>iteration=13, acc=0.0, best=0.5348837209302325, cfg={'selector__k': 80}, test_object_id=['AR19_S'], feature_names=['spot927' 'spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot4955'
+ 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot9646' 'spot9802'
+ 'spot10947' 'spot11945' 'spot12505' 'spot13827' 'spot14410' 'spot16726'
+ 'spot18350' 'spot18732' 'spot20686' 'spot20708' 'spot24234' 'spot24411'
+ 'spot24743' 'spot25901' 'spot26983' 'spot28573' 'spot28583' 'spot28964'
+ 'spot29070' 'spot29275' 'spot30179' 'spot31140' 'spot32703' 'spot32818'
+ 'spot32848' 'spot33029' 'spot33189' 'spot33246' 'spot33258' 'spot33304'
+ 'spot33306' 'spot33373' 'spot33417' 'spot33521' 'spot35033' 'spot35269'
+ 'spot35944' 'spot36023' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38320'
+ 'spot38551' 'spot38627' 'spot38877' 'spot39680' 'spot41022' 'spot41135'
+ 'spot41193' 'spot41374' 'spot41486' 'spot43831' 'spot43875' 'spot45293'
+ 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot47833' 'spot48579'
+ 'spot49650' 'spot50217']
+>iteration=14, acc=0.0, best=0.5348837209302325, cfg={'selector__k': 70}, test_object_id=['AR21_S'], feature_names=['spot927' 'spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5713'
+ 'spot6664' 'spot8133' 'spot8961' 'spot9646' 'spot9802' 'spot10211'
+ 'spot10947' 'spot11945' 'spot12356' 'spot12505' 'spot13827' 'spot14410'
+ 'spot16726' 'spot18350' 'spot20515' 'spot20686' 'spot20774' 'spot24234'
+ 'spot24411' 'spot24743' 'spot25901' 'spot28573' 'spot28583' 'spot28964'
+ 'spot31140' 'spot32703' 'spot32707' 'spot32848' 'spot33189' 'spot33246'
+ 'spot33258' 'spot33304' 'spot33306' 'spot33373' 'spot33521' 'spot35033'
+ 'spot36023' 'spot36064' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38320'
+ 'spot38627' 'spot39680' 'spot41022' 'spot41135' 'spot41374' 'spot41486'
+ 'spot43831' 'spot43875' 'spot45321' 'spot46497' 'spot46585' 'spot46921'
+ 'spot47200' 'spot48579' 'spot49650' 'spot50217']
+>iteration=15, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 90}, test_object_id=['AR22_S'], feature_names=['spot927' 'spot1726' 'spot1829' 'spot2549' 'spot3451' 'spot4633'
+ 'spot5097' 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot9646'
+ 'spot9676' 'spot10208' 'spot10857' 'spot10947' 'spot11945' 'spot12356'
+ 'spot12505' 'spot13827' 'spot14410' 'spot16726' 'spot17041' 'spot18350'
+ 'spot18732' 'spot18935' 'spot20515' 'spot20686' 'spot20708' 'spot20774'
+ 'spot20861' 'spot24234' 'spot24411' 'spot24743' 'spot25901' 'spot26983'
+ 'spot28573' 'spot28583' 'spot28805' 'spot28964' 'spot29275' 'spot30564'
+ 'spot31140' 'spot32703' 'spot32818' 'spot32848' 'spot33029' 'spot33189'
+ 'spot33246' 'spot33258' 'spot33304' 'spot33306' 'spot33373' 'spot33405'
+ 'spot33417' 'spot33521' 'spot35033' 'spot35328' 'spot35944' 'spot36023'
+ 'spot36062' 'spot36858' 'spot36869' 'spot36995' 'spot37011' 'spot37121'
+ 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38320' 'spot38551'
+ 'spot38877' 'spot39680' 'spot41022' 'spot41135' 'spot41374' 'spot41486'
+ 'spot43831' 'spot43875' 'spot45293' 'spot46497' 'spot46585' 'spot46921'
+ 'spot47200' 'spot47629' 'spot47833' 'spot48579' 'spot49650' 'spot50217']
+>iteration=16, acc=0.0, best=0.5813953488372093, cfg={'selector__k': 40}, test_object_id=['AR23_S'], feature_names=['spot2005' 'spot3451' 'spot4633' 'spot5713' 'spot6601' 'spot6664'
+ 'spot7651' 'spot8133' 'spot8961' 'spot10208' 'spot10947' 'spot11945'
+ 'spot13827' 'spot14410' 'spot19493' 'spot20686' 'spot20771' 'spot20774'
+ 'spot24743' 'spot27664' 'spot27665' 'spot28573' 'spot28715' 'spot33246'
+ 'spot33306' 'spot33373' 'spot35992' 'spot36023' 'spot37114' 'spot37121'
+ 'spot41242' 'spot43831' 'spot43875' 'spot46497' 'spot46585' 'spot46889'
+ 'spot46921' 'spot48579' 'spot49577' 'spot49650']
+>iteration=17, acc=0.0, best=0.5813953488372093, cfg={'selector__k': 45}, test_object_id=['AR24_S'], feature_names=['spot1829' 'spot3451' 'spot4633' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12356' 'spot12505'
+ 'spot13827' 'spot13960' 'spot14410' 'spot16726' 'spot20686' 'spot20708'
+ 'spot20774' 'spot24234' 'spot24743' 'spot28573' 'spot33189' 'spot33246'
+ 'spot33306' 'spot33373' 'spot33521' 'spot35033' 'spot36023' 'spot36858'
+ 'spot36869' 'spot36995' 'spot37121' 'spot37131' 'spot37519' 'spot38104'
+ 'spot39680' 'spot43875' 'spot45293' 'spot46497' 'spot46585' 'spot46921'
+ 'spot47200' 'spot48579' 'spot49650']
+>iteration=18, acc=0.0, best=0.46511627906976744, cfg={'selector__k': 4}, test_object_id=['AR25_S'], feature_names=['spot10947' 'spot11945' 'spot24743' 'spot49650']
+>iteration=19, acc=1.0, best=0.46511627906976744, cfg={'selector__k': 3}, test_object_id=['AR26_S'], feature_names=['spot10947' 'spot11945' 'spot49650']
+>iteration=20, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 4}, test_object_id=['AR27_S'], feature_names=['spot10947' 'spot11945' 'spot48579' 'spot49650']
+>iteration=21, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 3}, test_object_id=['AR28_S'], feature_names=['spot11945' 'spot46921' 'spot49650']
+>iteration=22, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 4}, test_object_id=['AR29_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=23, acc=1.0, best=0.46511627906976744, cfg={'selector__k': 40}, test_object_id=['AR30_S'], feature_names=['spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5713' 'spot6664'
+ 'spot8133' 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12356'
+ 'spot13827' 'spot14410' 'spot16726' 'spot20686' 'spot24743' 'spot28573'
+ 'spot31140' 'spot33189' 'spot33246' 'spot33306' 'spot33373' 'spot33521'
+ 'spot35033' 'spot35328' 'spot36023' 'spot36869' 'spot36995' 'spot37121'
+ 'spot37131' 'spot38104' 'spot39680' 'spot45293' 'spot46497' 'spot46585'
+ 'spot46921' 'spot47200' 'spot48579' 'spot49650']
+>iteration=24, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 4}, test_object_id=['AR31_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=25, acc=0.0, best=0.5348837209302325, cfg={'selector__k': 3}, test_object_id=['AR33_S'], feature_names=['spot11945' 'spot46921' 'spot49650']
+>iteration=26, acc=0.0, best=0.5348837209302325, cfg={'selector__k': 8}, test_object_id=['AR35_S'], feature_names=['spot10947' 'spot11945' 'spot12505' 'spot14410' 'spot20686' 'spot46921'
+ 'spot48579' 'spot49650']
+>iteration=27, acc=1.0, best=0.4418604651162791, cfg={'selector__k': 3}, test_object_id=['AR36_S'], feature_names=['spot10947' 'spot11945' 'spot49650']
+>iteration=28, acc=1.0, best=0.5116279069767442, cfg={'selector__k': 100}, test_object_id=['AR39_S'], feature_names=['spot927' 'spot1726' 'spot1829' 'spot2546' 'spot2549' 'spot3451'
+ 'spot4633' 'spot5097' 'spot5156' 'spot5713' 'spot6664' 'spot8133'
+ 'spot8961' 'spot9646' 'spot9676' 'spot9802' 'spot10208' 'spot10947'
+ 'spot11945' 'spot12356' 'spot12505' 'spot13495' 'spot13827' 'spot14410'
+ 'spot16726' 'spot16832' 'spot17041' 'spot17946' 'spot18350' 'spot18732'
+ 'spot18935' 'spot19354' 'spot20060' 'spot20515' 'spot20686' 'spot20708'
+ 'spot20774' 'spot24234' 'spot24411' 'spot24519' 'spot24743' 'spot26983'
+ 'spot28573' 'spot28583' 'spot28964' 'spot29070' 'spot29275' 'spot29617'
+ 'spot30564' 'spot31140' 'spot32008' 'spot32674' 'spot32703' 'spot32818'
+ 'spot32848' 'spot33029' 'spot33189' 'spot33246' 'spot33258' 'spot33304'
+ 'spot33306' 'spot33373' 'spot33417' 'spot33521' 'spot35033' 'spot35269'
+ 'spot35328' 'spot35944' 'spot36023' 'spot36062' 'spot36858' 'spot36869'
+ 'spot36995' 'spot37011' 'spot37121' 'spot37131' 'spot37519' 'spot38104'
+ 'spot38153' 'spot38320' 'spot38551' 'spot38627' 'spot39680' 'spot40264'
+ 'spot41022' 'spot41135' 'spot41374' 'spot41486' 'spot43875' 'spot45293'
+ 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot47833' 'spot48579'
+ 'spot49650' 'spot50217' 'spot50219' 'spot50246']
+>iteration=29, acc=0.0, best=0.4883720930232558, cfg={'selector__k': 20}, test_object_id=['AR41_S'], feature_names=['spot3451' 'spot5713' 'spot6664' 'spot8133' 'spot9646' 'spot10947'
+ 'spot11945' 'spot14410' 'spot20686' 'spot24743' 'spot28573' 'spot33246'
+ 'spot33373' 'spot36023' 'spot37121' 'spot46497' 'spot46585' 'spot46921'
+ 'spot48579' 'spot49650']
+>iteration=30, acc=1.0, best=0.46511627906976744, cfg={'selector__k': 5}, test_object_id=['AR42_S'], feature_names=['spot8133' 'spot10947' 'spot11945' 'spot48579' 'spot49650']
+>iteration=31, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 50}, test_object_id=['AR43_S'], feature_names=['spot1829' 'spot3451' 'spot5713' 'spot6664' 'spot8133' 'spot8961'
+ 'spot9646' 'spot9802' 'spot10947' 'spot11945' 'spot13827' 'spot14410'
+ 'spot16726' 'spot18350' 'spot18732' 'spot20686' 'spot20774' 'spot24234'
+ 'spot24743' 'spot28573' 'spot28583' 'spot31140' 'spot32703' 'spot32848'
+ 'spot33189' 'spot33246' 'spot33258' 'spot33306' 'spot33373' 'spot33521'
+ 'spot35033' 'spot36023' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot39680'
+ 'spot41374' 'spot43875' 'spot46497' 'spot46585' 'spot46921' 'spot47200'
+ 'spot48579' 'spot49650']
+>iteration=32, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 100}, test_object_id=['AR44_S'], feature_names=['spot927' 'spot1726' 'spot1829' 'spot2549' 'spot3451' 'spot4633'
+ 'spot5097' 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot9646'
+ 'spot9676' 'spot9802' 'spot10208' 'spot10947' 'spot11945' 'spot12356'
+ 'spot12505' 'spot13495' 'spot13827' 'spot14410' 'spot16726' 'spot16832'
+ 'spot17041' 'spot18350' 'spot18732' 'spot20404' 'spot20515' 'spot20597'
+ 'spot20686' 'spot20708' 'spot20771' 'spot20774' 'spot24234' 'spot24411'
+ 'spot24519' 'spot24743' 'spot26983' 'spot28573' 'spot28583' 'spot28752'
+ 'spot28964' 'spot29070' 'spot29275' 'spot30397' 'spot30564' 'spot31140'
+ 'spot32674' 'spot32703' 'spot32818' 'spot32848' 'spot33029' 'spot33189'
+ 'spot33246' 'spot33258' 'spot33304' 'spot33306' 'spot33373' 'spot33405'
+ 'spot33417' 'spot33521' 'spot35033' 'spot35269' 'spot35328' 'spot35944'
+ 'spot36023' 'spot36062' 'spot36064' 'spot36771' 'spot36858' 'spot36869'
+ 'spot36924' 'spot36995' 'spot37011' 'spot37121' 'spot37131' 'spot37511'
+ 'spot37519' 'spot38104' 'spot38153' 'spot38320' 'spot38551' 'spot38627'
+ 'spot38877' 'spot39680' 'spot41022' 'spot41374' 'spot41486' 'spot43875'
+ 'spot45293' 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot47833'
+ 'spot48579' 'spot49650' 'spot50217' 'spot50219']
+>iteration=33, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 5}, test_object_id=['AR45_S'], feature_names=['spot6664' 'spot10947' 'spot13827' 'spot48579' 'spot49650']
+>iteration=34, acc=0.0, best=0.5581395348837209, cfg={'selector__k': 45}, test_object_id=['AR47_S'], feature_names=['spot1829' 'spot2543' 'spot3451' 'spot3960' 'spot4633' 'spot5713'
+ 'spot8133' 'spot8961' 'spot9646' 'spot11945' 'spot12356' 'spot13827'
+ 'spot14410' 'spot16832' 'spot16833' 'spot20515' 'spot20686' 'spot20861'
+ 'spot24519' 'spot28573' 'spot28583' 'spot30564' 'spot33189' 'spot33246'
+ 'spot33306' 'spot36023' 'spot36619' 'spot37121' 'spot37496' 'spot37519'
+ 'spot38104' 'spot38551' 'spot39680' 'spot41374' 'spot42775' 'spot43831'
+ 'spot45293' 'spot46497' 'spot46585' 'spot46919' 'spot46921' 'spot47200'
+ 'spot48579' 'spot49650' 'spot50217']
+>iteration=35, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 4}, test_object_id=['AR48_S'], feature_names=['spot10947' 'spot11945' 'spot46921' 'spot49650']
+>iteration=36, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 25}, test_object_id=['AR49_S'], feature_names=['spot1829' 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot10947'
+ 'spot11945' 'spot13827' 'spot14410' 'spot20686' 'spot24743' 'spot28573'
+ 'spot33246' 'spot33373' 'spot35033' 'spot36023' 'spot36995' 'spot37121'
+ 'spot38104' 'spot39680' 'spot45293' 'spot46585' 'spot46921' 'spot48579'
+ 'spot49650']
+>iteration=37, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 6}, test_object_id=['AR50_S'], feature_names=['spot8133' 'spot10947' 'spot11945' 'spot46585' 'spot48579' 'spot49650']
+>iteration=38, acc=0.0, best=0.5116279069767442, cfg={'selector__k': 60}, test_object_id=['AR51_S'], feature_names=['spot927' 'spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5097'
+ 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot9646' 'spot9802'
+ 'spot10947' 'spot11945' 'spot12356' 'spot13827' 'spot14410' 'spot16726'
+ 'spot18350' 'spot18668' 'spot20686' 'spot20774' 'spot24234' 'spot24411'
+ 'spot24743' 'spot28573' 'spot28583' 'spot28964' 'spot30564' 'spot31140'
+ 'spot32674' 'spot32848' 'spot33189' 'spot33246' 'spot33258' 'spot33304'
+ 'spot33306' 'spot33373' 'spot33521' 'spot35033' 'spot36023' 'spot36858'
+ 'spot36869' 'spot36995' 'spot37121' 'spot37131' 'spot37519' 'spot38104'
+ 'spot38153' 'spot39680' 'spot40264' 'spot41374' 'spot43875' 'spot45293'
+ 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot48579' 'spot49650']
+>iteration=39, acc=0.0, best=0.46511627906976744, cfg={'selector__k': 40}, test_object_id=['AR52_S'], feature_names=['spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5713' 'spot6664'
+ 'spot8133' 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12356'
+ 'spot13827' 'spot14410' 'spot16726' 'spot20686' 'spot24234' 'spot24743'
+ 'spot28573' 'spot32606' 'spot33189' 'spot33246' 'spot33306' 'spot33373'
+ 'spot35033' 'spot36023' 'spot36869' 'spot36995' 'spot37121' 'spot37131'
+ 'spot37519' 'spot38104' 'spot39680' 'spot45293' 'spot46497' 'spot46585'
+ 'spot46921' 'spot47200' 'spot48579' 'spot49650']
+>iteration=40, acc=1.0, best=0.46511627906976744, cfg={'selector__k': 3}, test_object_id=['AR53_S'], feature_names=['spot10947' 'spot11945' 'spot49650']
+>iteration=41, acc=1.0, best=0.5116279069767442, cfg={'selector__k': 90}, test_object_id=['AR54_S'], feature_names=['spot927' 'spot1829' 'spot2549' 'spot3451' 'spot4633' 'spot5097'
+ 'spot5713' 'spot6664' 'spot8133' 'spot8961' 'spot9646' 'spot9676'
+ 'spot9802' 'spot10208' 'spot10857' 'spot10947' 'spot11945' 'spot12356'
+ 'spot12505' 'spot13827' 'spot14410' 'spot16726' 'spot17041' 'spot18350'
+ 'spot18732' 'spot18935' 'spot19354' 'spot20515' 'spot20686' 'spot20708'
+ 'spot20774' 'spot24234' 'spot24411' 'spot24519' 'spot24743' 'spot28573'
+ 'spot28583' 'spot28805' 'spot28964' 'spot29070' 'spot29275' 'spot30564'
+ 'spot31140' 'spot32703' 'spot32848' 'spot33029' 'spot33189' 'spot33246'
+ 'spot33258' 'spot33304' 'spot33306' 'spot33373' 'spot33405' 'spot33417'
+ 'spot33521' 'spot35033' 'spot35269' 'spot35328' 'spot35944' 'spot36023'
+ 'spot36062' 'spot36064' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot38153' 'spot38320'
+ 'spot38551' 'spot39680' 'spot41022' 'spot41135' 'spot41374' 'spot41486'
+ 'spot41607' 'spot43875' 'spot45293' 'spot46497' 'spot46585' 'spot46921'
+ 'spot47200' 'spot48579' 'spot49650' 'spot49788' 'spot50217' 'spot50246']
+>iteration=42, acc=0.0, best=0.5813953488372093, cfg={'selector__k': 3}, test_object_id=['AR55_S'], feature_names=['spot10947' 'spot11945' 'spot49650']
+>iteration=43, acc=1.0, best=0.5116279069767442, cfg={'selector__k': 50}, test_object_id=['AR56_S'], feature_names=['spot1829' 'spot3451' 'spot4633' 'spot5097' 'spot5713' 'spot6664'
+ 'spot8133' 'spot9646' 'spot10947' 'spot11945' 'spot12356' 'spot12793'
+ 'spot13827' 'spot14410' 'spot16726' 'spot18350' 'spot18732' 'spot20686'
+ 'spot24234' 'spot24743' 'spot28573' 'spot28583' 'spot28805' 'spot31140'
+ 'spot32848' 'spot33189' 'spot33246' 'spot33306' 'spot33373' 'spot33521'
+ 'spot35033' 'spot36023' 'spot36858' 'spot36869' 'spot36995' 'spot37011'
+ 'spot37121' 'spot37131' 'spot37519' 'spot38104' 'spot39680' 'spot43875'
+ 'spot45293' 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot48579'
+ 'spot49650' 'spot50246']
+>iteration=44, acc=0.0, best=0.5813953488372093, cfg={'selector__k': 45}, test_object_id=['AR57_S'], feature_names=['spot1829' 'spot3451' 'spot4633' 'spot5097' 'spot5713' 'spot6664'
+ 'spot8133' 'spot8961' 'spot9646' 'spot10947' 'spot11945' 'spot12356'
+ 'spot12505' 'spot13827' 'spot14410' 'spot16726' 'spot20686' 'spot20774'
+ 'spot24234' 'spot24743' 'spot28573' 'spot28583' 'spot32848' 'spot33189'
+ 'spot33246' 'spot33306' 'spot33373' 'spot35033' 'spot36023' 'spot36858'
+ 'spot36869' 'spot36995' 'spot37121' 'spot37131' 'spot37519' 'spot38104'
+ 'spot39680' 'spot46497' 'spot46585' 'spot46921' 'spot47200' 'spot47833'
+ 'spot48579' 'spot49650' 'spot50246']
+Results: 
+conf_matrix:[[ 3 10  3]
+ [12  8  2]
+ [ 4  1  1]]
+ accuracy:0.2727272727272727
+ precision:0.2906698564593302
+ recall:0.2727272727272727
+ balanced_acc:0.23926767676767677
+Misclassified objects are:["['AR04_S']", "['AR07_S']", "['AR08_S']", "['AR09_S']", "['AR11_S']", "['AR12_S']", "['AR13_S']", "['AR18_S']", "['AR19_S']", "['AR21_S']", "['AR22_S']", "['AR23_S']", "['AR24_S']", "['AR25_S']", "['AR27_S']", "['AR28_S']", "['AR29_S']", "['AR31_S']", "['AR33_S']", "['AR35_S']", "['AR41_S']", "['AR43_S']", "['AR44_S']", "['AR45_S']", "['AR47_S']", "['AR48_S']", "['AR49_S']", "['AR50_S']", "['AR51_S']", "['AR52_S']", "['AR55_S']", "['AR57_S']"]
+ Correctly classified objects are:["['AR10_S']", "['AR15_S']", "['AR16_S']", "['AR17_S']", "['AR26_S']", "['AR30_S']", "['AR36_S']", "['AR39_S']", "['AR42_S']", "['AR53_S']", "['AR54_S']", "['AR56_S']"]
+
+
+ Podliczone_cechy: {'spot49650': 44, 'spot11945': 43, 'spot10947': 41, 'spot46921': 35, 'spot48579': 31, 'spot8133': 28, 'spot46585': 27, 'spot14410': 27, 'spot20686': 27, 'spot37121': 26, 'spot13827': 26, 'spot5713': 26, 'spot33246': 26, 'spot6664': 25, 'spot24743': 25, 'spot3451': 25, 'spot36023': 25, 'spot28573': 24, 'spot33373': 24, 'spot46497': 23, 'spot36995': 22, 'spot9646': 22, 'spot8961': 22, 'spot38104': 22, 'spot33306': 22, 'spot39680': 22, 'spot1829': 21, 'spot33189': 21, 'spot4633': 21, 'spot35033': 21, 'spot47200': 21, 'spot37131': 20, 'spot16726': 20, 'spot36869': 20, 'spot37519': 19, 'spot45293': 19, 'spot24234': 19, 'spot28583': 17, 'spot36858': 17, 'spot33521': 17, 'spot12356': 17, 'spot32848': 16, 'spot43875': 15, 'spot31140': 15, 'spot18350': 13, 'spot2549': 13, 'spot20774': 13, 'spot37011': 12, 'spot38153': 12, 'spot41374': 12, 'spot12505': 12, 'spot32703': 11, 'spot33258': 11, 'spot28964': 10, 'spot18732': 10, 'spot24411': 10, 'spot5097': 9, 'spot35328': 9, 'spot9802': 9, 'spot33304': 8, 'spot41486': 8, 'spot50217': 8, 'spot38320': 8, 'spot33417': 8, 'spot927': 8, 'spot29275': 7, 'spot10208': 7, 'spot20515': 7, 'spot30564': 7, 'spot41135': 7, 'spot33029': 7, 'spot41022': 7, 'spot20708': 7, 'spot38551': 7, 'spot43831': 6, 'spot35944': 6, 'spot38877': 5, 'spot9676': 5, 'spot26983': 5, 'spot32818': 5, 'spot17041': 5, 'spot24519': 5, 'spot35269': 5, 'spot32674': 5, 'spot38627': 5, 'spot36062': 5, 'spot50246': 5, 'spot36064': 5, 'spot47833': 5, 'spot1726': 4, 'spot25901': 4, 'spot33405': 4, 'spot29070': 4, 'spot16832': 4, 'spot18935': 4, 'spot20861': 3, 'spot28805': 3, 'spot40264': 3, 'spot5156': 3, 'spot18668': 3, 'spot10857': 3, 'spot29617': 2, 'spot27665': 2, 'spot2543': 2, 'spot13495': 2, 'spot27664': 2, 'spot50219': 2, 'spot19354': 2, 'spot28752': 2, 'spot20771': 2, 'spot49788': 1, 'spot36619': 1, 'spot32670': 1, 'spot36771': 1, 'spot37114': 1, 'spot46521': 1, 'spot12793': 1, 'spot16833': 1, 'spot48530': 1, 'spot22966': 1, 'spot20060': 1, 'spot49577': 1, 'spot20597': 1, 'spot36924': 1, 'spot28715': 1, 'spot13960': 1, 'spot32008': 1, 'spot46651': 1, 'spot20404': 1, 'spot11914': 1, 'spot36889': 1, 'spot7651': 1, 'spot49902': 1, 'spot17043': 1, 'spot5003': 1, 'spot2005': 1, 'spot37117': 1, 'spot35992': 1, 'spot37511': 1, 'spot45321': 1, 'spot17946': 1, 'spot17502': 1, 'spot6665': 1, 'spot30397': 1, 'spot32259': 1, 'spot2401': 1, 'spot17247': 1, 'spot46919': 1, 'spot26155': 1, 'spot44555': 1, 'spot28376': 1, 'spot10211': 1, 'spot4646': 1, 'spot7715': 1, 'spot20661': 1, 'spot19493': 1, 'spot3960': 1, 'spot47629': 1, 'spot4955': 1, 'spot33276': 1, 'spot11576': 1, 'spot12911': 1, 'spot41242': 1, 'spot46889': 1, 'spot25639': 1, 'spot32606': 1, 'spot32707': 1, 'spot42775': 1, 'spot30179': 1, 'spot2546': 1, 'spot41193': 1, 'spot6601': 1, 'spot41607': 1, 'spot37496': 1}
+
+ Wybrane_cechy: ['spot49650', 'spot11945', 'spot10947', 'spot46921', 'spot48579', 'spot8133', 'spot46585', 'spot14410', 'spot20686', 'spot37121', 'spot13827', 'spot5713', 'spot33246', 'spot6664', 'spot24743', 'spot3451', 'spot36023', 'spot28573', 'spot33373', 'spot46497', 'spot36995', 'spot9646', 'spot8961', 'spot38104', 'spot33306', 'spot39680', 'spot1829', 'spot33189', 'spot4633', 'spot35033', 'spot47200', 'spot37131', 'spot16726', 'spot36869', 'spot37519']
+
+ Produkcyny_model_uzyskal: 
+conf_matrix:[[ 5 10  1]
+ [ 4 18  0]
+ [ 2  1  3]]
+ accuracy:0.5909090909090909
+ precision:0.5779068110572813
+ recall:0.5909090909090909
+ balanced_acc:0.5435606060606061
+
+
+=============================================

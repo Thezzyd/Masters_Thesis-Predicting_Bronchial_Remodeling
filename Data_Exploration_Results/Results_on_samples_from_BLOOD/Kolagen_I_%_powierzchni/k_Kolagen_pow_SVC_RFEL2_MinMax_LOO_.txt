@@ -1,0 +1,11 @@
+=============================================
+search_space: {'selector__n_features_to_select': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100]}
+>iteration=1, acc=0.0, best=0.7954545454545454, cfg={'selector__n_features_to_select': 15}, test_object_id=['AR04_K'], feature_names=['spot4726' 'spot13426' 'spot13840' 'spot21596' 'spot23312' 'spot25556'
+ 'spot26672' 'spot29679' 'spot33136' 'spot37829' 'spot42241' 'spot46130'
+ 'spot47353' 'spot47473' 'spot49030']
+>iteration=2, acc=1.0, best=0.6818181818181818, cfg={'selector__n_features_to_select': 12}, test_object_id=['AR05_K'], feature_names=['spot2549' 'spot13840' 'spot23312' 'spot25556' 'spot26672' 'spot33136'
+ 'spot38315' 'spot42241' 'spot47353' 'spot47435' 'spot47442' 'spot49030']
+>iteration=3, acc=1.0, best=0.75, cfg={'selector__n_features_to_select': 20}, test_object_id=['AR08_K'], feature_names=['spot2549' 'spot10414' 'spot13840' 'spot13906' 'spot14989' 'spot20805'
+ 'spot22802' 'spot23312' 'spot23539' 'spot25556' 'spot25807' 'spot26672'
+ 'spot27889' 'spot33136' 'spot42241' 'spot46130' 'spot47353' 'spot47435'
+ 'spot47442' 'spot49030']
