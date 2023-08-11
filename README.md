@@ -29,11 +29,11 @@ Informacja o zwiększonym ryzyku wystąpienia konkretnej choroby pozwoliłaby na
 1. **Wstępne przygotowanie danych**  
 Usunięcie obiektów nieprzyjmujących wartości dla analizowanej kolumny decyzyjnej, progowanie jeśli przyjmowane wartości w kolumnie decyzyjnej były ciągłe.
 2. **Walidacja krzyżowa (ang. Cross Validation)**  
-Zastosowano mechanizm zagnieżdżonej walidacji krzyżowej typo LOO (Leave One Out). W wewnętrznej pętli walidacji krzyżowej dokonywano optymalizacji hiperparametrów metod, w zewnętrznej pętli odbywała się weryfikacja modelu na obiektach testowych.
+Zastosowano mechanizm zagnieżdżonej walidacji krzyżowej typu LOO (Leave One Out). W wewnętrznej pętli walidacji krzyżowej dokonywano optymalizacji hiperparametrów metod, w zewnętrznej pętli odbywała się weryfikacja modelu na obiektach testowych.
 3. **Wstępne przetwarzanie danych**  
-W obrębie każdej pojedynczej iteracji walidacji krzyżowej przed przystąpieniem do nauczania modelu stosowano techniki wstępnego przetważania danych, które obejmowały kolejnio:
+W obrębie każdej pojedynczej iteracji walidacji krzyżowej przed przystąpieniem do nauczania modelu stosowano techniki wstępnego przetwarzania danych, które obejmowały kolejno:
     1. **Skalowanie danych**  
-    Sprowadzenie wartości w obrębie wszystkich obiektów dla każdej z kolumn do jedej skali. Zastosowano metodę MinMax. W wstępnych testach wykazano iż zastosowanie skalowania danych poprawia wyniki klasyfikacji.
+    Sprowadzenie wartości w obrębie wszystkich obiektów dla każdej z kolumn do jednej skali. Zastosowano metodę MinMax. W wstępnych testach wykazano, że zastosowanie skalowania danych poprawia wyniki klasyfikacji.
     2. **Selekcja cech**  
     Zastosowano trzy metody selekcji cech. SelectKBest, SelectFromModel, RFE. Metodę SelectKBest stosowano w dwóch konfiguracjach, w pierwszej wykorzystując funkcję oceny cech chi2, w drugiej funkcję f_classif. Jako estymator przy metodzie SelectFromModel wykorzystano metodę RandomForestClassifier. Metodę RFE stosowano w dwóch konfiguracjach, w obu konfiguracjach wykorzystując jako estymator metodę LogisticRegression, lecz w pierwszej ustawiono metodę regularyzacji na metodę LASSO, a w drugiej konfiguracji na metodę RIDGE. 
     3. **Równoważenie klas decyzyjnych**  
@@ -59,7 +59,7 @@ Wszystkie z wymienionych powyżej cech klinicznych są powiązane z występowani
 
 **Hiperparametry metod oraz przestrzeń przeszukiwania** - ze względu na ograniczone zasoby czasu i mocy obliczeniowej skupiono się podczas eksploracji danych mikromacierzowych na optymalizacji hiperparametrów metod selekcji cech. Wszystkie hiperparametry metod klasyfikacyjnych na przestrzeni wszystkich eksperymentów pozostawiono przy ustawieniach domyślnych. Gdyby chciano badać hiperparamnetry metod klasyfikacyjnych czas wymagany na zakończenie badań bardzo szybko by się namnożył i uniemożliwiłby przeprowadzenie eksploracji w zaplanowanych ramach. Ponadto w wstępnych testach bardzo często to właśnie ustawienia domyślne okazywały się "zwycięskimi" konfiguracjami dla metod klasyfikacyjnych.  
 
-**Poprawność skryptu/algorytmu** - przed przystąpieniem do eksploracji danych mikromacierzowych DNA zbadano czy utworzony skrypt działa poprawnie. W tym celu wykorzystano metodę "make_classification" z biblioteki scikit-learn. Metoda ta pozwala na wygenerowanie syntetycznego zbioru danych, którego trudność w kontekście problemu klasyfikacji można określić prametrami wejściowymi. Wyniki uzyskane za pomocą skryptu dla synetycznych danych pokrywały się z oczekiwaniami, więc następnie rozpoczęto badanie danych mikromacierzowych.  
+**Poprawność skryptu/algorytmu** - przed przystąpieniem do eksploracji danych mikromacierzowych DNA zbadano czy utworzony skrypt działa poprawnie. W tym celu wykorzystano metodę "make_classification" z biblioteki scikit-learn. Metoda ta pozwala na wygenerowanie syntetycznego zbioru danych, którego trudność w kontekście problemu klasyfikacji można określić parametrami wejściowymi. Wyniki uzyskane za pomocą skryptu dla syntetycznych danych pokrywały się z oczekiwaniami, więc następnie rozpoczęto badanie danych mikromacierzowych.  
 
 ## Wyniki dla Kolagen I % powierzchni (pięć najkorzystniejszych konfiguracji)
 | Lp.  | Metoda klasyfikacyjna | Metoda selekcji cech    | Wal. Dokł.(%) | Test. Dokł.(%) | Test. Prec.(%) | Test. Czuł.(%) | Test. AUC.(%) |
@@ -118,7 +118,7 @@ Wszystkie z wymienionych powyżej cech klinicznych są powiązane z występowani
 ## Wnioski końcowe
 Progiem akceptacji modelu jako dobrej jakości w badaniu był próg >80%. A więc każda metryka jakości dla danego modelu powinna mieć wartość powyżej lub równą 80%.  
 
-Po przeanalizowaniu wszystkich z przeprowadzonych ekspertymentów tylko jedna kolumna decyzyjna pozwoliła uzyskać model dobrej jakości, tj. "Wall area ratio RB10".  
+Po przeanalizowaniu wszystkich z przeprowadzonych eksperymentów tylko jedna kolumna decyzyjna pozwoliła uzyskać model dobrej jakości, tj. "Wall area ratio RB10".  
 
 ### Czy teza pracy została udowodniona?
 Tak, lecz w kontekście tylko jednego argumentu decyzyjnego, tj. “Wall area ratio RB10”.  
